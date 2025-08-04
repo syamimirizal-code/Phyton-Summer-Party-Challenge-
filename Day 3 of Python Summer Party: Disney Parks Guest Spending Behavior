@@ -1,0 +1,23 @@
+Question 1 of 3
+
+dim_groups['created_date'] = pd.to_datetime(dim_groups['created_date'])
+
+october_groups = dim_groups
+
+[
+(dim_groups['created_date'].dt.year == 2024) &
+(dim_groups['created_date'].dt.month == 10) &
+(dim_groups['participant_count'] > 50)
+]
+
+average_messages = large_october_groups['total_messages'].mean()
+
+print(f"The average number of total messages sent for Whatsapp groups with more than 50 participants what were created in Oct 2024: {average_messages:.2f}")
+
+The Ouput:
+  park_experience_type  avg_spending_per_guest_per_visit
+0           Attraction                              55.0
+1               Dining                              32.5
+2               Retail                             22.75
+3        Entertainment                              40.0
+4       Character Meet                               0.0
