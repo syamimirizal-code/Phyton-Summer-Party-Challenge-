@@ -1,0 +1,57 @@
+Question 1 of 3
+What is the maximum number of participants among WhatsApp groups that were created in October 2024? This metric will help us understand the largest group size available
+
+# Note: pandas and numpy are already imported as pd and np
+# The following tables are loaded as pandas DataFrames with the same names: dim_groups
+
+import pandas as pd
+
+dim_groups['created_date'] = pd.to_datetime(dim_groups['created_date'])
+
+october_groups = dim_groups[
+    (dim_groups['created_date'].dt.year == 2024) &
+    (dim_groups['created_date'].dt.month == 10)
+]
+
+max_participants = october_groups['participant_count'].max()
+
+print(f"The maximum number of participants in WhatsApp groups created in Oct 2024 is: {max_participants}")
+
+
+Question 2 of 3
+What is the average number of participants in WhatsApp groups that were created in October 2024? This number will indicate the typical group size and inform Whatsapp group messaging feature considerations.
+
+# Note: pandas and numpy are already imported as pd and np
+# The following tables are loaded as pandas DataFrames with the same names: dim_groups
+# Please print your final result or dataframe
+
+import pandas as pd
+
+dim_groups['created_date'] = pd.to_datetime(dim_groups['created_date'])
+
+october_groups = dim_groups[
+    (dim_groups['created_date'].dt.year == 2024) &
+    (dim_groups['created_date'].dt.month == 10)
+]
+
+max_participants = october_groups['participant_count'].max()
+
+print(f"The maximum number of participants in WhatsApp groups created in Oct 2024 is: {max_participants}")
+
+
+Question 3 of 3
+For WhatsApp groups with more than 50 participants that were created in October 2024, what is the average number of messages sent? This insight will help assess engagement in larger groups and support recommendations for group messaging features
+
+dim_groups['created_date'] = pd.to_datetime(dim_groups['created_date'])
+
+large_october_groups = dim_groups[
+    (dim_groups['created_date'].dt.year == 2024) &
+    (dim_groups['created_date'].dt.month == 10) &
+    (dim_groups['participant_count'] > 50)
+]
+
+
+average_messages = large_october_groups['total_messages'].mean()
+
+
+print(f"The average number of total messages sent for WhatsApp groups with more than 50 participants created in Oct 2024 is: {average_messages:.2f}")
