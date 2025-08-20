@@ -5,7 +5,7 @@ Python Summer Party is a challenge designed for Data Analysts and Data Scientist
 This repository contains my completed notebooks from Interview Master's Python Summer Party challenge. It’s intended for recruiters, peers and learners to review my approach to data analysis problems using pandas and numpy.
 
 
-# Challenge Descriptions
+## Challenge Descriptions
 
 | Challenge Day | Company       | Difficulty |
 | ------------- | ------------- | ---------- |
@@ -27,7 +27,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 
 
 
-#  15 Summer Python Challenge Party (Grouped into Modules)
+## 15 Summer Python Challenge Party (Grouped into Modules)
 
 🔹 Module 1: Data Cleaning & Quality Control
 
