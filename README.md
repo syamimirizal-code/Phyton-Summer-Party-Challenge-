@@ -2,7 +2,8 @@
 
 Python Summer Party is a challenge designed for Data Analysts and Data Scientists, tackling real-world business problems using powerful data tools like pandas for analysis and numpy for numerical computing.
 
-This repository contains my completed notebooks from Interview Master's Python Summer Party challenge. It’s intended for recruiters, peers, and learners to review my approach to data analysis problems using pandas and numpy.
+This repository contains my completed notebooks from Interview Master's Python Summer Party challenge. It’s intended for recruiters, peers and learners to review my approach to data analysis problems using pandas and numpy.
+
 
 🏆 Challenge Descriptions
 
@@ -25,6 +26,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 | Day 15        | Uber          | Hard       |
 
 
+
 🏆 15 Summer Python Challenge Party (Grouped into Modules)
 
 🔹 Module 1: Data Cleaning & Quality Control
@@ -36,6 +38,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 | Apple       | App Store Ratings | Fix formatting issues & summarize distributions |
 | Google      | Search Behavior   | Handle duplicates, group by search result count |
 
+
 🔹 Module 2: Customer Behavior & Business Insights
 
 | Brand            | Focus Area         | Key Task                                    |
@@ -45,6 +48,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 | Amazon           | Transactions       | Group by category & extract insights        |
 | Disney           | Ticket Sales       | Identify seasonal or anomalous sales spikes |
 | Lululemon        | Fitness Engagement | Analyze customer workout class attendance   |
+
 
 🔹 Module 3: Forecasting, Simulation & Optimization
 
