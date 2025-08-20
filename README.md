@@ -24,6 +24,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 | Day 14        | Starbucks     | Hard       |
 | Day 15        | Uber          | Hard       |
 
+
 🏆 15 Summer Python Challenge Party (Grouped into Modules)
 
 🔹 Module 1: Data Cleaning & Quality Control
