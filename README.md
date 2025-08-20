@@ -31,7 +31,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 
 🔹 Module 1: Data Cleaning & Quality Control
 
-| Brand       | Focus Area        | Key Task                                        |
+| Company      | Focus Area        | Key Task                                        |
 | ----------- | ----------------- | ----------------------------------------------- |
 | Shake Shack | Customer Ratings  | Remove duplicates & compare ratings to averages |
 | Nike        | Sales Data        | Clean collab sales data & analyze performance   |
@@ -41,7 +41,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 
 🔹 Module 2: Customer Behavior & Business Insights
 
-| Brand            | Focus Area         | Key Task                                    |
+| Company           | Focus Area         | Key Task                                    |
 | ---------------- | ------------------ | ------------------------------------------- |
 | Meta (Instagram) | Stories Behavior   | Distribution of daily stories per user      |
 | Walmart          | Returns            | Monthly customer return patterns            |
@@ -52,7 +52,7 @@ This repository contains my completed notebooks from Interview Master's Python S
 
 🔹 Module 3: Forecasting, Simulation & Optimization
 
-| Brand         | Focus Area   | Key Task                                           |
+| Company        | Focus Area   | Key Task                                           |
 | ------------- | ------------ | -------------------------------------------------- |
 | Nintendo      | Pre-sales    | Regional pre-sales forecasting                     |
 | Ben & Jerry’s | Sales        | Detect anomalies in sales patterns                 |
